@@ -32,14 +32,24 @@ namespace Galactica__unilogin_
         internal void MoonList()
         {
             var moons = new List<Moon>();
-            moons.Add(Luna);
-            moons.Add(Titan);
-            moons.Add(Phobes);
-            moons.Add(Europe);
-            moons.Add(Deimos);
-            moons.Add(Ganymedes);
-            moons.Add(Io);
-            moons.Add(Mimas);
+            {
+                new Planet() { Name = "Luna", Diameter = , RevolutionPeriod = , RotationsPeriod = , Id = 0},
+
+                new Planet() { Name = "Titan", Diameter = , RevolutionPeriod = , RotationsPeriod = , Id = 1},
+
+                new Planet() { Name = "Phobes", Diameter = , RevolutionPeriod = , RotationsPeriod = , Id = 2},
+
+                new Planet() { Name = "Europe", Diameter = , RevolutionPeriod = , RotationsPeriod = , Id = 3},
+
+                new Planet() { Name = "Deimos", Diameter = , RevolutionPeriod = , RotationsPeriod = , Id = 4},
+
+                new Planet() { Name = "Ganymedes", Diameter = , RevolutionPeriod = , RotationsPeriod = , Id = 5},
+
+                new Planet() { Name = "Io", Diameter = , RevolutionPeriod = , RotationsPeriod = , Id = 6},
+
+                new Planet() { Name = "Mimas", Diameter = , RevolutionPeriod = , RotationsPeriod = , Id = 7},
+
+            }
         }
     }
 }
